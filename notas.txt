@@ -1,0 +1,47 @@
+Arquivos separados são chamados de módulos.
+
+Dentro desses módulos, exportamos e importamos outros módulos e funções.
+
+node com:
+ - express: criar servidor;
+ - nodemom: reiniciador automático do servidor ao desenvolver algo novo - em dev;
+ - cosign: agrupa os módulos e inclui os controllers no app.
+ - body parse: traduz as informações das requisições que recebemos do cliente.
+ - mysql: integração com o bd mysql;
+ - moment: biblioteca que vai administrar todo tipo de data e converter para o que queremos;
+
+
+Ex. express, cosign, bodyparse: ficam dentro do customExpress.
+
+Controller decide o que cada rota vai fazer.
+
+Models faz a conexão e as querys ao bd.
+
+Sistema com validação dos dados enviados (POST, PUT e PATCH).
+
+Sites
+ - httpstatues.com
+ - npmjs.com
+ - Sobre o curl: https://www.hostinger.com.br/tutoriais/comando-curl-linu
+Escolher uma versão do node
+ nvm: nvm install 10.16.3
+
+Criar um projeto node
+ npm init
+
+
+Ordem dos comandos
+
+nvm instal 10.16.3
+
+npm init
+
+npm install express --save
+
+npm install nodemon --save -dev
+
+npm start (com nodemon e com script escrito no package.json)
+
+npm install consign --save
+
+npm install body-parser --save

@@ -1,0 +1,14 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "Projeto do curso de nodejs e rest da Alura.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JMK",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

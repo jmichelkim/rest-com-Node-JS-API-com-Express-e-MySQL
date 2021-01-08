@@ -1,0 +1,16 @@
+- Visual Studio Code
+
+- node
+
+- postman 
+
+- mysql & Workbrench
+
+- Navegador Web
+
+- GitHub
+
+Entregáveis:
+ - Código no git e no computador;
+ - Collection do postman - ideal também no git;
+ - API funcionando utilizando minha máquina como servidor;
